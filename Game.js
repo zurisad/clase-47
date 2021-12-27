@@ -34,6 +34,7 @@ class Game{
         banana = createSprite(1050,-1500);
         banana.addImage("j",bananaImg);
         banana.scale = 0.1;
+        rock = createSprite()
     }
     play(){
       form.hide();
