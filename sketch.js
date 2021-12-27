@@ -9,14 +9,15 @@ var car1, car2, cars;
 var distance = 0;
 var move = 0;
 var carImg1, carImg2, backgroundImg;
-var bananaImg;
-var banana;
+var bananaImg,rockImg;
+var banana,rock;
 
 function preload(){
     carImg1 = loadImage("car1.png");
     carImg2 = loadImage("car2.png");
     backgroundImg= loadImage("fondo3.png");
     bananaImg = loadImage("platano.png");
+    rockImg = loadImage("roca.png");
 }
 function setup(){
     createCanvas(displayWidth,displayHeight);
