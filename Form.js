@@ -33,7 +33,7 @@ class Form{
         player.update();
         player.updateCount(playerCount);
 
-        this.title2.html("bienvenido"+player.name);
+        this.title2.html("bienvenido:  "+player.name);
         this.title2.position(displayWidth/2-20,100);
       })
     }
